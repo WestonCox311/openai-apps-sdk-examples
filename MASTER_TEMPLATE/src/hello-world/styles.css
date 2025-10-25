@@ -1,0 +1,127 @@
+/**
+ * STYLES for Hello World Widget
+ *
+ * CSS (Cascading Style Sheets) controls how your widget looks.
+ *
+ * BEGINNER TIPS:
+ * - Each ".className" targets an HTML element with that class
+ * - Colors can be: named (blue), hex (#0066ff), or rgb(0, 102, 255)
+ * - Spacing: margin (outside), padding (inside)
+ * - Size: use px (pixels), rem (relative), or % (percentage)
+ */
+
+/* Container for the entire app */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Main card that holds content */
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings */
+.card h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 20px;
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Description text */
+.description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Server data section */
+.server-data {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.server-data p {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Counter section */
+.counter {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+  background: #fff5e6;
+  border-radius: 10px;
+}
+
+.counter p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Button styles */
+.button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-weight: bold;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+/* Tips section */
+.tips {
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.tips ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.tips li {
+  margin: 8px 0;
+  color: #2e7d32;
+  font-size: 14px;
+}

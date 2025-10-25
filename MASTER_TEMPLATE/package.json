@@ -1,0 +1,39 @@
+{
+  "name": "my-chatgpt-app-template",
+  "version": "1.0.0",
+  "description": "Master template for building ChatGPT Apps",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsx ./build.mts",
+    "serve": "serve -s ./assets -p 4444 --cors",
+    "dev": "vite --config vite.config.mts",
+    "server": "cd mcp-server && pnpm start"
+  },
+  "keywords": ["chatgpt", "openai", "apps-sdk", "mcp"],
+  "author": "Your Name",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^24.3.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "autoprefixer": "10.4.21",
+    "fast-glob": "^3.3.3",
+    "postcss": "8.5.6",
+    "serve": "^14.2.4",
+    "tailwindcss": "4.1.11",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.1"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.536.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
